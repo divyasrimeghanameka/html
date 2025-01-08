@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1,h2{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            table{
+                border:1px solid black;
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th,td{
+                border:1px solid black;
+                border-collapse: collapse;
+                text-align: center;
+
+            }
+            tr{
+                height:40px;
+            }
+        </style>
+        <h1>HTML Time Table</h1>
+    </head>
+    <body>
+        <h2>Class Time Table</h2>
+        <h2>Sectoin-C</h2>
+        <table>
+            <tr>
+                <th>Peroid</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th rowspan="2">12:40-1:40PM</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+            </tr>
+            <tr>
+                <th>Day</th>
+                <th>9:00-9:50AM</th>
+                <th>9:50-10:40AM</th>
+                <th>11:00-11:50AM</th>
+                <th>11:50-12:40PM</th>
+                <th>1:40-2:30PM</th>
+                <th>2:30-3:20PM</th>
+                <th>3:20-4:10PM</th>
+                <th>4:10-5:00PM</th>
+            </tr>
+            <tr>
+                <th>MON</th>
+                <td>SE</td>
+                <td>ADSAA</td>
+                <td>MEFA</td>
+                <td>OS</td>
+            </tr>
+        </table>
+        
+    </body>
+</html>
