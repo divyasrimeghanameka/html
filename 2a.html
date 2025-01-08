@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1,h2{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            table{
+                border:1px solid black;
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th,td{
+                border:1px solid black;
+                border-collapse: collapse;
+                text-align: center;
+
+            }
+            tr{
+                height:40px;
+            }
+        </style>
+        <h1>HTML Table Demonstration</h1>
+    </head>
+    <body>
+        <h2>Basic Table</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Roll Number</th>
+                <th>Branch</th>
+            </tr>
+            <tr>
+                <td>Divya</td>
+                <td>05E8</td>
+                <td>CSE</td>
+            </tr>
+            <tr>
+                <td>Sri</td>
+                <td>05E9</td>
+                <td>IT</td>
+            </tr>
+            <tr>
+                <td>Meghana</td>
+                <td>05F0</td>
+                <td>ECE</td>
+            </tr>
+        </table>
+        <h2>Table with Rowspan and Colspan</h2>
+        <table>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Row1 and 2,Cell2</td>
+                <td>Row1,Cell2</td>
+                <td>Row1, Cell3</td>
+            </tr>
+            <tr>
+                <td colspan="2">Row2,Merged cells</td>
+            </tr>
+            <tr>
+                <td>Row3, Cell1</td>
+                <td>Row3, Cell2</td>
+                <td>Row3, Cell 3</td>
+            </tr>
+        </table>
+    </body>
+</html>
