@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Thumbnail Images with Links</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                padding:0;
+                margin:150px;
+                background: color #f7f7f7;
+            }
+            h1 {
+                color:black;
+                text-align: center; 
+            }
+            .image{
+                display:flex;
+                flex-wrap:wrap;
+                padding:20px;
+            }
+            .image img{
+                width:100px;
+                height:100px;
+                border: 2px solid #ccc;
+                border-radius:5px;
+                transition: transform 0.3s, border-color 0.3s;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Thumbnail Image Gallery </h1>
+            <div class="image">
+                <a href="/home/vitcse/Pictures/tom.jpg" target="_blank">
+                    <img src="/home/vitcse/Pictures/tom.jpg" alt="tom image">
+                </a>
+                <a href="/home/vitcse/Pictures/jerry.png" target="_blank">
+                    <img src="/home/vitcse/Pictures/jerry.png" alt="jerry image">
+                </a>
+                <a href="/home/vitcse/Pictures/doremon.jpeg" target="_blank";>
+                    <img src="/home/vitcse/Pictures/doremon.jpeg" alt="doremon image">
+                </a>
+                <a href="/home/vitcse/Pictures/nobitha.jpeg" target="_blank">
+                    <img src="/home/vitcse/Pictures/nobitha.jpeg" alt="nobitha image">
+                </a>
+                <a href="/home/vitcse/Pictures/shizuka.jpeg" target="_blank">
+                    <img src="/home/vitcse/Pictures/shizuka.jpeg" alt="shizuka image">
+                </a>
+            </div>
+        </body>
+</html>
